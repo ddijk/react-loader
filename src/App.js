@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MyReport from './MyReport';
+import ModalModalExample from './ModalModalExample';
 
 function App() {
   return (
     <div className="App">
+      <MyReport/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
